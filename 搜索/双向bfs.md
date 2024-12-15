@@ -24,15 +24,15 @@
 
 规则的含义为：在 $A$ 中的子串 $A_1$ 可以变换为 $ B_1$ ， $A_2$ 可以变换为 $B_2\cdots$ 。
 
-例如：$A=\texttt{abcd}$ ，$B＝\texttt{xyz}$ ，
+例如： $A=abcd$  ， $B＝xyz$ ，
 
 变换规则为：
 
--  $\texttt{abc}\rightarrow\texttt{xu}$ ，$\texttt{ud}\rightarrow\texttt{y}$ ，$\texttt{y}\rightarrow\texttt{yz}$ 。
+-  $abc\rightarrow xu$ ， $ud \rightarrow y$  ， $y \rightarrow yz$ 。
 
 则此时，$A$ 可以经过一系列的变换变为 $B$ ，其变换的过程为：
 
--  $\texttt{abcd}\rightarrow\texttt{xud}\rightarrow\texttt{xy}\rightarrow\texttt{xyz}$ 。
+-  $abcd \rightarrow xud \rightarrow xy \rightarrow xyz$ 。
 
 共进行了 $3$ 次变换，使得 $A$ 变换为 $B$ 。
 
